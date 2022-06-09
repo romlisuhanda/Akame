@@ -59,8 +59,7 @@
   },
   "directories": {
     "lib": "lib",
-    "src": "src",
-    "storage": "storage"
+    "src": "src"
   },
   "repository": {
     "type": "git",
