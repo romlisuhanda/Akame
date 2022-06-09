@@ -4,7 +4,15 @@
 ---------
 
 # GuaAbuzz
-Script WhatsApp Bot Multi Device
+* [`Whatsapp`](https://wa.me/6289636827082?text=Assalamualaikum)
+* [`TikTok`](https://tiktok.com/@guaabuzz)
+
+---------
+
+## Donate Me
+* [`Saweria`](https://saweria.co/GuaAbuzz)
+* [`Gopay`](https://i.ibb.co/dGwfqRT/Gopay.jpg)
+* [`Dana`](https://i.ibb.co/MN3mmMB/Dana.jpg)
 
 ---------
 
