@@ -1,11 +1,23 @@
 <p align="center">
 <img src="https://i.ibb.co/bvCb4Pr/Akame.jpg" alt="Akame" width="500"/>
+</p>
+<h1 align="center">Akame - MD</h1>
+<p align="center">
+  <a href="https://github.com/Abuzzpoet"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Akame+BOT+Multi+Device;Base+ori+by+DikaArdnt;Recode+By+GuaAbuzz;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="UwU">
+</p>
 
 ---------
 
-# GuaAbuzz
+# Sosial Media GuaAbuzz
 * [`Whatsapp`](https://wa.me/6289636827082?text=Assalamualaikum)
 * [`TikTok`](https://tiktok.com/@guaabuzz)
+
+---------
+
+# Connect The Me
+* [![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6282171978174) 
+* [![ONWER](https://img.shields.io/badge/Owner%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289636827082) 
+* [![GROUP OFFICIAL](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB) 
 
 ---------
 
