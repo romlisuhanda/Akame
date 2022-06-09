@@ -11,11 +11,11 @@
 # Connect The Me
 [![TIKTOK](https://img.shields.io/badge/TikTok%20Owner-1b1e23?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@guaabuzz) 
 
-[![ONWER](https://img.shields.io/badge/Owner%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289636827082?text=Assalamualaikum+Bang) 
+[![OWNER](https://img.shields.io/badge/Owner%20BOT-1b1e23?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289636827082?text=Assalamualaikum+Bang) 
 
-[![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6282171978174?text=Menu) 
+[![WHATSAPP BOT](https://img.shields.io/badge/WhatsApp%20BOT-1b1e23?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6282171978174?text=Menu) 
 
-[![GROUP OFFICIAL](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB) 
+[![GROUP OFFICIAL](https://img.shields.io/badge/WhatsApp%20Group-1b1e23?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB) 
 
 ---------
 
