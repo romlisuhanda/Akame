@@ -1239,13 +1239,15 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 }
             }
             break
-            case 'myip': {
-            if (!isCreator) throw mess.owner
-            let anu = await fetchJson('https://api.ipify.org/?format=json')
-            txt = `🔎 My public IP address is : ${anu.result}`
-            m.reply(txt)
-                }
-                break
+            case 'myip':{
+var http = require('http')
+http.get({'host': 'api.ipify.org', 'port': 80, 'path': '/'}, function(resp) {
+            resp.on('data', function(ip) {
+                m.reply("My public IP address is: " + ip);
+            })
+        })
+}
+break
             //Salam
             case 'Assalamualaikum':
             case 'assalamualaikum':
