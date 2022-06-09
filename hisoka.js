@@ -1239,6 +1239,12 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 }
             }
             break
+            case 'myip': {
+                let anu = await fetchJson('https://api.ipify.org/?format=json')
+                txt = `🔎 My public IP address is : ${anu.result.data.ip}`
+                m.reply(txt)
+                }
+                break
             //Salam
             case 'Assalamualaikum':
             case 'assalamualaikum':
@@ -2183,11 +2189,11 @@ ${global.scbot}`
                 if (args[0] === "on") {
                     if (db.chats[m.chat].antilinkwa) return m.reply(`Sudah Aktif Sebelumnya`)
                     db.chats[m.chat].antilinkwa = true
-                    m.reply(`Antilink Group WhatsApp Aktif !`)
+                    m.reply(`Antilink Group WhatsApp Aktif 🕊️`)
                 } else if (args[0] === "off") {
                     if (!db.chats[m.chat].antilink) return m.reply(`Sudah Nonaktif Sebelumnya`)
                     db.chats[m.chat].antilink = false
-                    m.reply(`Antilink Group WhatsApp Nonaktif !`)
+                    m.reply(`Antilink Group WhatsApp Nonaktif 🕊️`)
                 } else {
                     let buttons = [{
                             buttonId: 'antilinkwa on',
@@ -2215,11 +2221,11 @@ ${global.scbot}`
                 if (args[0] === "on") {
                     if (db.chats[m.chat].antilinkyt) return m.reply(`Sudah Aktif Sebelumnya`)
                     db.chats[m.chat].antilinkyt = true
-                    m.reply(`Antilink YouTube Aktif !`)
+                    m.reply(`Antilink YouTube Aktif 🕊️`)
                 } else if (args[0] === "off") {
                     if (!db.chats[m.chat].antilinkyt) return m.reply(`Sudah Nonaktif Sebelumnya`)
                     db.chats[m.chat].antilinkyt = false
-                    m.reply(`Antilink YouTube Nonaktif !`)
+                    m.reply(`Antilink YouTube Nonaktif 🕊️`)
                 } else {
                     let buttons = [{
                             buttonId: 'antilinkyt on',
@@ -2247,11 +2253,11 @@ ${global.scbot}`
                 if (args[0] === "on") {
                     if (db.chats[m.chat].antilinktt) return m.reply(`Sudah Aktif Sebelumnya`)
                     db.chats[m.chat].antilinktt = true
-                    m.reply(`Antilink TikTok Aktif !`)
+                    m.reply(`Antilink TikTok Aktif 🕊️`)
                 } else if (args[0] === "off") {
                     if (!db.chats[m.chat].antilinktt) return m.reply(`Sudah Nonaktif Sebelumnya`)
                     db.chats[m.chat].antilinktt = false
-                    m.reply(`Antilink TikTok Nonaktif !`)
+                    m.reply(`Antilink TikTok Nonaktif 🕊️`)
                 } else {
                     let buttons = [{
                             buttonId: 'antilinktt on',
@@ -2279,11 +2285,11 @@ ${global.scbot}`
                 if (args[0] === "on") {
                     if (db.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya`)
                     db.chats[m.chat].mute = true
-                    m.reply(`${hisoka.user.name} telah di mute di group ini !`)
+                    m.reply(`${hisoka.user.name} telah di mute di group ini 🕊️`)
                 } else if (args[0] === "off") {
                     if (!db.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya`)
                     db.chats[m.chat].mute = false
-                    m.reply(`${hisoka.user.name} telah di unmute di group ini !`)
+                    m.reply(`${hisoka.user.name} telah di unmute di group ini 🕊️`)
                 } else {
                     let buttons = [{
                             buttonId: 'mute on',
@@ -2315,7 +2321,7 @@ ${global.scbot}`
                 let anu = await styletext(text)
                 let teks = `Srtle Text From ${text}\n\n`
                 for (let i of anu) {
-                    teks += `⭔ *${i.name}* : ${i.result}\n\n`
+                    teks += `📝 *${i.name}* : ${i.result}\n\n`
                 }
                 m.reply(teks)
             }
@@ -2526,9 +2532,9 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === 'close') {
-                    await hisoka.groupSettingUpdate(m.chat, 'announcement').then((res) => m.reply(`Sukses Menutup Group`)).catch((err) => m.reply(jsonformat(err)))
+                    await hisoka.groupSettingUpdate(m.chat, 'announcement').then((res) => m.reply(`Sukses Menutup Group 🕊️`)).catch((err) => m.reply(jsonformat(err)))
                 } else if (args[0] === 'open') {
-                    await hisoka.groupSettingUpdate(m.chat, 'not_announcement').then((res) => m.reply(`Sukses Membuka Group`)).catch((err) => m.reply(jsonformat(err)))
+                    await hisoka.groupSettingUpdate(m.chat, 'not_announcement').then((res) => m.reply(`Sukses Membuka Group 🕊️`)).catch((err) => m.reply(jsonformat(err)))
                 } else {
                     let buttons = [{
                             buttonId: 'group open',
@@ -2555,9 +2561,9 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === 'open') {
-                    await hisoka.groupSettingUpdate(m.chat, 'unlocked').then((res) => m.reply(`Sukses Membuka Edit Info Group`)).catch((err) => m.reply(jsonformat(err)))
+                    await hisoka.groupSettingUpdate(m.chat, 'unlocked').then((res) => m.reply(`Sukses Membuka Edit Info Group 🕊️`)).catch((err) => m.reply(jsonformat(err)))
                 } else if (args[0] === 'close') {
-                    await hisoka.groupSettingUpdate(m.chat, 'locked').then((res) => m.reply(`Sukses Menutup Edit Info Group`)).catch((err) => m.reply(jsonformat(err)))
+                    await hisoka.groupSettingUpdate(m.chat, 'locked').then((res) => m.reply(`Sukses Menutup Edit Info Group 🕊️`)).catch((err) => m.reply(jsonformat(err)))
                 } else {
                     let buttons = [{
                             buttonId: 'editinfo open',
@@ -2624,7 +2630,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     id,
                     isBaileys
                 } = m.quoted
-                if (!isBaileys) throw 'Pesan tersebut bukan dikirim oleh bot!'
+                if (!isBaileys) throw 'Pesan tersebut bukan dikirim oleh bot'
                 hisoka.sendMessage(m.chat, {
                     delete: {
                         remoteJid: m.chat,
@@ -2746,8 +2752,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     let read = i.readTimestamp
                     let unread = i.receiptTimestamp
                     let waktu = read ? read : unread
-                    teks += `⭔ @${i.userJid.split('@')[0]}\n`
-                    teks += ` ┗━⭔ *Waktu :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} ⭔ *Status :* ${read ? 'Dibaca' : 'Terkirim'}\n\n`
+                    teks += `👤 @${i.userJid.split('@')[0]}\n`
+                    teks += ` ┗━⏳ *Waktu :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} 📈 *Status :* ${read ? 'Dibaca' : 'Terkirim'}\n\n`
                 }
                 hisoka.sendTextWithMentions(m.chat, teks, m)
             }
@@ -6127,7 +6133,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/hijaber'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6152,7 +6158,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/cecan'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6177,7 +6183,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/indonesia'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6202,7 +6208,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/vietnam'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6227,7 +6233,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/thailand'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6252,7 +6258,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/korea'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6277,7 +6283,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/china'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6302,7 +6308,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/japan'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6327,7 +6333,7 @@ ${id}`)
                     image: {
                         url: 'https://api.zacros.my.id/asupan/malaysia'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6352,7 +6358,7 @@ ${id}`)
                     video: {
                         url: 'https://api.zacros.my.id/asupan/santuy'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Asupan ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6377,7 +6383,7 @@ ${id}`)
                     video: {
                         url: 'https://api.zacros.my.id/asupan/ukhty'
                     },
-                    caption: `Random Ukhty`,
+                    caption: `Random Asupan Ukhty`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6427,7 +6433,7 @@ ${id}`)
                     video: {
                         url: 'https://recoders-area.caliph.repl.co/api/lolivid'
                     },
-                    caption: `Random ${command}`,
+                    caption: `Random Loli ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -6792,9 +6798,8 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 m.reply('Sukses Mengubah Mode Bot Menjadi Self')
             }
             break
-            case 'apikey': {
+            case 'apikey':
                 m.reply(`Apikey Yang Dipake Oleh Bot ${global.namabot}\n⬣ https://zenzapis.xyz [Sewa]\n⬣ https://api.lolhuman.xyz [Sewa]\n⬣ https://api.zacros.my.id [Gratis]`)
-            }
                 break
             case 'ping':
             case 'botstatus':
@@ -6807,7 +6812,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 let txtping = `*⍢⃝🤖 I N F O  B O T*\n\n`
                 txtping += `*👤 Owner Name :* ${global.namaowner}\n`
                 txtping += `*🕊️ Nama Bot :* ${global.namabot}\n`
-                txtping += `*🔗 No. Owner :* wa.me/${global.owner}\n\n`
+                txtping += `*🔗 Nomor Owner :* wa.me/${global.owner}\n\n`
                 txtping += `*⍢⃝👾 I N F O  S T A T I S T I K*\n\n`
                 txtping += `*🗃️ Lib :* Baileys Multi Device\n`
                 txtping += `*🆎 Tipe :* Nodejs\n`
