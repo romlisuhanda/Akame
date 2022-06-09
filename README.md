@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.ibb.co/0YsZGcF/Akame.jpg" alt="Akame" width="500"/>
+<img src="https://i.ibb.co/bvCb4Pr/Akame.jpg" alt="Akame" width="500"/>
 
 ---------
 
