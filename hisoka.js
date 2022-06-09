@@ -6792,25 +6792,9 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 m.reply('Sukses Mengubah Mode Bot Menjadi Self')
             }
             break
-            case 'eval': {
-                if (!isCreator && !m.key.fromMe) throw mess.owner
-                function Return(sul) {
-                sat = JSON.stringify(sul, null, 2)
-                bang = util.format(sat)
-                if (sat == undefined) {
-                bang = util.format(sul)
-            }
-                return m.reply(bang)
-            }
-                try {
-                m.reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
-            } catch (e) {
-                m.reply(String(e))
-            }
-            }
-            break
-            case 'apikey':
+            case 'apikey': {
                 m.reply(`Apikey Yang Dipake Oleh Bot ${global.namabot}\n⬣ https://zenzapis.xyz [Sewa]\n⬣ https://api.lolhuman.xyz [Sewa]\n⬣ https://api.zacros.my.id [Gratis]`)
+            }
                 break
             case 'ping':
             case 'botstatus':
