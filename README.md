@@ -1,3 +1,8 @@
+<p align="center">
+<img src="https://telegra.ph/file/c30dbb82d814df7cbc583.jpg" alt="Akame" width="500"/>
+
+---------
+
 # GuaAbuzz
 Script WhatsApp Bot Multi Device
 
