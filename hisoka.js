@@ -6793,7 +6793,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'eval': {
-                if (!isOwner && !m.key.fromMe) return m.reply(mess.botOwner)
+                if (!isCreator && !m.key.fromMe) throw mess.owner
                 function Return(sul) {
                 sat = JSON.stringify(sul, null, 2)
                 bang = util.format(sat)
@@ -9687,48 +9687,42 @@ Request Message: ${text}`
 │• Wita : ${wita}
 │• Wit : ${wit}
 └──────────────┈❖`
-                const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                                jpegThumbnail: fs.readFileSync('./storage/menu/hisoka.jpg')
-                            },
-                            hydratedFooterText: `© ${global.namabot}`,
-                            hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'TikTok Creator',
-                                    url: global.myweb
-                                }
-                            }, {
-                                callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: global.owner[0]
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Rules',
-                                    id: 'rules'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Donasi',
-                                    id: 'donasi'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'List Menu',
-                                    id: 'command'
-                                }
-                            }]
-                        }
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
                     }
-                }), {
-                    userJid: m.chat
-                })
-                hisoka.relayMessage(m.chat, template.message, {
-                    messageId: template.key.id
-                })
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: 'Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: 'Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: 'List Menu',
+                        id: 'command'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
             }
             break
             case 'allmenu':
