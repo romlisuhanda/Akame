@@ -1,10 +1,3 @@
-/**
- * Base By Dika Ardnt.
- * Recode By GuaAbuzz
- * Kalau Mau Recode, Edit Aja Di confiq.js
- * Contact Me On wa.me/6289636827082
- * Follow https://github.com/Abuzzpoet
- */
 require('./config')
 const {
     default: hisokaConnect,
