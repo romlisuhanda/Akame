@@ -9,7 +9,7 @@
 ---------
 
 # Connect The Me
-[![TIKTOK](https://img.shields.io/badge/TikTok%20Owner-FFFFFF?style=for-the-badge&logo=tiktok&logoColor=black)](https://tiktok.com/@guaabuzz) 
+[![TIKTOK](https://img.shields.io/badge/TikTok%20Owner-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@guaabuzz) 
 
 [![ONWER](https://img.shields.io/badge/Owner%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289636827082?text=Assalamualaikum+Bang) 
 
