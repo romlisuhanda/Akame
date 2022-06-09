@@ -1,6 +1,8 @@
 # GuaAbuzz
 Script WhatsApp Bot Multi Device
 
+---------
+
 ## NOTE
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
@@ -9,8 +11,8 @@ This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](h
 ---------
 
 ## My Project
-WhatsApp Bot Multi Device [`Abuzzpoet/Asuna`](https://github.com/Abuzzpoet/Asuna)
-WhatsApp Bot Multi Device V2 [`Abuzzpoet/Akame`](https://github.com/Abuzzpoet/Akame)
+* WhatsApp Bot Multi Device [`Abuzzpoet/Asuna`](https://github.com/Abuzzpoet/Asuna)
+* WhatsApp Bot Multi Device V2 [`Abuzzpoet/Akame`](https://github.com/Abuzzpoet/Akame)
 
 ---------
 
@@ -106,8 +108,8 @@ Editing Number Owner & session name in [`config.js`](https://github.com/Abuzzpoe
 ---------
 
 ## Apikey
-Get Apikey Zenz on [`Zenz`](https://zenzapi.xyz/pricing)
-Get Apikey Lolhuman on [`Lolhuman`](https://api.lolhuman.xyz/pricing)
+* Get Apikey Zenz on [`Zenz`](https://zenzapi.xyz/pricing)
+* Get Apikey Lolhuman on [`Lolhuman`](https://api.lolhuman.xyz/pricing)
 
 ---------
 
