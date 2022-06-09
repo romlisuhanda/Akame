@@ -1242,7 +1242,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             case 'myip': {
             if (!isCreator) throw mess.owner
             let anu = await fetchJson('https://api.ipify.org/?format=json')
-            txt = `🔎 My public IP address is : ${anu.result.ip}`
+            txt = `🔎 My public IP address is : ${anu.result}`
             m.reply(txt)
                 }
                 break
