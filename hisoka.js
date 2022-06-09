@@ -1240,9 +1240,10 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'myip': {
-                let anu = await fetchJson('https://api.ipify.org/?format=json')
-                txt = `🔎 My public IP address is : ${anu.result.data.ip}`
-                m.reply(txt)
+            if (!isCreator) throw mess.owner
+            let anu = await fetchJson('https://api.ipify.org/?format=json')
+            txt = `🔎 My public IP address is : ${anu.result.ip}`
+            m.reply(txt)
                 }
                 break
             //Salam
@@ -9539,6 +9540,7 @@ Request Message: ${text}`
 └┬─────────────┈❖
 ┌┤「 OWNER 」
 │└─────────────┈❖
+│⭔ ${prefix}myip
 │⭔ ${prefix}react [emoji]
 │⭔ ${prefix}setexif
 │⭔ ${prefix}chat [option]
@@ -9999,6 +10001,7 @@ Request Message: ${text}`
 └┬─────────────┈❖
 ┌┤「 OWNER 」
 │└─────────────┈❖
+│⭔ ${prefix}myip
 │⭔ ${prefix}react [emoji]
 │⭔ ${prefix}setexif [packname|author]
 │⭔ ${prefix}chat [option]
