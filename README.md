@@ -8,7 +8,7 @@
 
 ---------
 
-# Media Sosial Me
+## Media Sosial Me
 [![TIKTOK](https://img.shields.io/badge/TikTok%20Owner-1b1e23?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@guaabuzz) 
 
 [![OWNER](https://img.shields.io/badge/Owner%20BOT-1b1e23?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289636827082?text=Assalamualaikum+Bang) 
@@ -24,7 +24,7 @@
 
 ---------
 
-## Note
+# Note
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
 ## My Project Me
@@ -103,7 +103,7 @@ $ node .
 
 ---------
 
-## ❗ Warning
+# ❗ Warning
 WhatsApp bot is still in the development stage, so there are a few bugs
 WhatsApp Connection (BETA, not working perfectly)
 
@@ -184,7 +184,7 @@ global.visoka = {
 ```
 ---------
 
-## Apikey
+# Apikey
 * Get Apikey zenz on [`Zenz`](https://zenzapi.xyz/pricing)
 
 ## Thanks To
