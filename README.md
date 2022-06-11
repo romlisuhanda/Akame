@@ -27,13 +27,17 @@
 ## Note
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
-## Module Bot Akame
-[![MODULE](https://img.shields.io/badge/@adiwajshing%20baileys-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adiwajshing/baileys)
-
 ## My Project Me
 [![ASUNA](https://img.shields.io/badge/Asuna%20BOT-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Asuna)
 
 [![AKAME](https://img.shields.io/badge/Akame%20BOT-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Akame)
+
+## Module Dan Base Bot Akame
+[![MODULE](https://img.shields.io/badge/@adiwajshing%20baileys-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adiwajshing/baileys)
+
+[![HISOKA](https://img.shields.io/badge/DikaArdnt-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DikaArdnt/Hisoka-Morou)
+
+[![ZENZ](https://img.shields.io/badge/zhwzein-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zhwzein/Killua-Zoldyck)
 
 ## Heroku Buildpack
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abuzzpoet/Akame)
@@ -51,14 +55,6 @@ Login with your github
 Click Launch Dev Environment
 Choose your repo
 ```
-
----------
-
-## Base Project Me
-* New script to replace this script [`look here`](https://github.com/zhwzein/Killua-Zoldyck) (`Support Legacy or Baileys`)
-* WhatsApp Bot normal [`DikaArdnt/Hisoka-Morrow`](https://github.com/DikaArdnt/Hisoka-Morrow)
-* WhatsApp Bot Multi Device [`DikaArdnt/Hisoka-Morou`](https://github.com/DikaArdnt/Hisoka-Morou)
-* WhatsApp Bot Using Library whatsapp-web.js [`hisoka-waweb.js`](https://github.com/Hisoka-Morrou/hisoka-waweb.js/)
 
 ---------
 
