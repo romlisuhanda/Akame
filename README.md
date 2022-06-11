@@ -39,7 +39,7 @@ This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother
 ## My Project Me
 [![ASUNA](https://img.shields.io/badge/Asuna%20BOT-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Asuna)
 
-[![AKAME](https://img.shields.io/badge/Akame%20BOT-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/Abuzzpoet/Akame)
+[![AKAME](https://img.shields.io/badge/Akame%20BOT-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Akame)
 
 ---------
 
