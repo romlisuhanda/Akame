@@ -41,7 +41,6 @@ This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](h
 
 ## Heroku Buildpack
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abuzzpoet/Akame)
-BuildPack LINK
 [![FFMPEG](https://img.shields.io/badge/BuildPack%20FFMPEG-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest)
 [![IMAGEMAGICK](https://img.shields.io/badge/BuildPack%20IMAGEMAGICK-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/DuckyTeam/heroku-buildpack-imagemagick)
 
@@ -126,20 +125,12 @@ WhatsApp Connection (BETA, not working perfectly)
 
 Editing Number Owner & session name in [`config.js`](https://github.com/Abuzzpoet/Akame/blob/master/config.js)
 
----------
-
 ## ```How To Customise Message Display```
 ```js
 //—————「 Website Apikey 」—————//
-global.APIs = {
-    //gausah di apa² in!
-    zenz: 'https://zenzapis.xyz',
-}
-
-//—————「 Website Apikey 」—————//
 global.APIKeys = {
-    //gausah di apa² in, udah free apikey :)
-    'https://zenzapis.xyz': 'GuaAbuzz17',
+    //gausah di apa² in, beli sendiri key ya :)
+    'https://zenzapis.xyz': 'Your_Apikey',
 }
 
 //—————「 Set Nama Bot & Own & Agama 」—————//
@@ -170,17 +161,9 @@ global.github = 'https://github.com/Abuzzpoet'
 global.scbot = 'https://github.com/Abuzzpoet/Akame'
 global.myweb = 'https://tiktok.com/@guaabuzz'
 
-//—————「 Set Wm 」—————//
+//—————「 Set Sticker Wm 」—————//
 global.packname = 'GuaAbuzz'
 global.author = 'WhatsApp Bot'
-
-//—————「 Set Nama Session 」—————//
-//gausah di apa² in!
-global.sessionName = 'session'
-
-//—————「 Set Prefix 」—————//
-//gausah di apa² in!
-global.prefa = ['', '!', '.', '🐦', '🐤', '🗿']
 
 //—————「 Set Simbol 」—————//
 //terserah mau ubah atau nggak
@@ -214,15 +197,9 @@ global.thumb = fs.readFileSync('./storage/menu/hisoka.jpg')
 global.visoka = {
     url: 'https://telegra.ph/file/de381b0caeb315a99c68a.mp4'
 }
-
-//—————「 Set Random Image Menu 」—————//
-//gausah di apa² in!
-global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 ```
 ---------
+
 ## Apikey
 * Get Apikey Zenz on [`Zenz`](https://zenzapi.xyz/pricing)
 
