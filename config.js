@@ -18,8 +18,8 @@ global.APIs = {
 
 //—————「 Website Apikey 」—————//
 global.APIKeys = {
-    //gausah di apa² in, Isi Apikey Ya :)
-    'https://zenzapis.xyz': 'Your_Apikey',
+    //gausah di apa² in, udah free apikey :)
+    'https://zenzapis.xyz': 'YOUR_APIKEY',
 }
 
 //—————「 Set Nama Bot & Own & Agama 」—————//
@@ -85,16 +85,7 @@ global.mess = {
 //terserah mau ubah atau nggak
 global.limitawal = {
     premium: "Infinity",
-    free: 20,
-    monayawal: 1000
-}
-global.rpg = {
-    darahawal: 100,
-    besiawal: 15,
-    goldawal: 10,
-    emeraldawal: 5,
-    umpanawal: 5,
-    potionawal: 1
+    free: 50,
 }
 
 //—————「 Set Image 」—————//
