@@ -8,7 +8,7 @@
 
 ---------
 
-# Media Sosial (Medsos) Guaabuzz
+# Media Sosial Me
 [![TIKTOK](https://img.shields.io/badge/TikTok%20Owner-1b1e23?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@guaabuzz) 
 
 [![OWNER](https://img.shields.io/badge/Owner%20BOT-1b1e23?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289636827082?text=Assalamualaikum+Bang) 
@@ -29,13 +29,17 @@
 ## Note
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
-This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
+---------
+
+## Module Bot Akame
+[![MODULE](https://img.shields.io/badge/@adiwajshing%20baileys-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adiwajshing/baileys)
 
 ---------
 
-## My Project
-* WhatsApp Bot Multi Device [`Abuzzpoet/Asuna`](https://github.com/Abuzzpoet/Asuna)
-* WhatsApp Bot Multi Device V2 [`Abuzzpoet/Akame`](https://github.com/Abuzzpoet/Akame)
+## My Project Me
+[![ASUNA](https://img.shields.io/badge/Asuna%20BOT-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Asuna)
+
+[![AKAME](https://img.shields.io/badge/Akame%20BOT-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/Abuzzpoet/Akame)
 
 ---------
 
@@ -61,7 +65,7 @@ Choose your repo
 
 ---------
 
-## Base Project 
+## Base Project Me
 * New script to replace this script [`look here`](https://github.com/zhwzein/Killua-Zoldyck) (`Support Legacy or Baileys`)
 * WhatsApp Bot normal [`DikaArdnt/Hisoka-Morrow`](https://github.com/DikaArdnt/Hisoka-Morrow)
 * WhatsApp Bot Multi Device [`DikaArdnt/Hisoka-Morou`](https://github.com/DikaArdnt/Hisoka-Morou)
@@ -203,7 +207,7 @@ global.visoka = {
 ---------
 
 ## Apikey
-* Get Apikey Zenz on [`Zenz`](https://zenzapi.xyz/pricing)
+* Get Apikey zenz on [`Zenz`](https://zenzapi.xyz/pricing)
 
 ---------
 
