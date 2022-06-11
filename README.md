@@ -17,8 +17,6 @@
 
 [![GROUP OFFICIAL](https://img.shields.io/badge/WhatsApp%20Group-1b1e23?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB) 
 
----------
-
 ## Donate Me
 * [`Saweria`](https://saweria.co/GuaAbuzz)
 * [`Gopay`](https://i.ibb.co/dGwfqRT/Gopay.jpg)
@@ -29,19 +27,13 @@
 ## Note
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
----------
-
 ## Module Bot Akame
 [![MODULE](https://img.shields.io/badge/@adiwajshing%20baileys-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adiwajshing/baileys)
-
----------
 
 ## My Project Me
 [![ASUNA](https://img.shields.io/badge/Asuna%20BOT-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Asuna)
 
 [![AKAME](https://img.shields.io/badge/Akame%20BOT-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Akame)
-
----------
 
 ## Heroku Buildpack
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abuzzpoet/Akame)
@@ -49,8 +41,6 @@ This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother
 [![FFMPEG](https://img.shields.io/badge/BuildPack%20FFMPEG-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest)
 
 [![IMAGEMAGICK](https://img.shields.io/badge/BuildPack%20IMAGEMAGICK-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/DuckyTeam/heroku-buildpack-imagemagick)
-
----------
 
 ## For Okteto
 
@@ -61,7 +51,6 @@ Login with your github
 Click Launch Dev Environment
 Choose your repo
 ```
-
 
 ---------
 
@@ -84,7 +73,6 @@ git clone https://github.com/Abuzzpoet/Akame
 cd Akame
 npm install
 ```
----------
 
 ## How To Connect To Mongodb When Run In Heroku
 
@@ -92,8 +80,6 @@ npm install
 * when you already have a database, you just need to take mongourl
 * Put mongourl in Procfile `web: node . --db 'mongourl'`
 * Example `web: node . -- db 'Your Mongo URI'`
-
----------
 
 ## For Termux/ubuntu/ssh User
 
@@ -107,16 +93,12 @@ cd Akame
 npm install
 ```
 
----------
-
 ## Recommended Install On Termux
 
 ```bash
 pkg install yarn
 yarn
 ```
-
----------
 
 ## Installing
 ```bash
@@ -209,8 +191,6 @@ global.visoka = {
 ## Apikey
 * Get Apikey zenz on [`Zenz`](https://zenzapi.xyz/pricing)
 
----------
-
 ## Thanks To
 * [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
 * [`Nurutomo`](https://github.com/Nurutomo)
@@ -220,7 +200,5 @@ global.visoka = {
 * [`zhwzein`](https://github.com/zhwzein)
 * [`CAF-ID`](https://github.com/CAF-ID)
 * [`Hisoka775`](https://github.com/Hisoka775)
-
----------
 
 License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
