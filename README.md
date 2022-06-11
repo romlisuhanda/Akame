@@ -8,7 +8,7 @@
 
 ---------
 
-## Media Sosial Me
+# Media Sosial Me
 [![TIKTOK](https://img.shields.io/badge/TikTok%20Owner-1b1e23?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@guaabuzz) 
 
 [![OWNER](https://img.shields.io/badge/Owner%20BOT-1b1e23?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289636827082?text=Assalamualaikum+Bang) 
@@ -32,7 +32,7 @@ This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother
 
 [![AKAME](https://img.shields.io/badge/Akame%20BOT-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Akame)
 
-## Module Dan Base Bot Akame
+## Module Dan Base Yg Dipake
 [![MODULE](https://img.shields.io/badge/@adiwajshing%20baileys-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adiwajshing/baileys)
 
 [![HISOKA](https://img.shields.io/badge/DikaArdnt-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DikaArdnt/Hisoka-Morou)
